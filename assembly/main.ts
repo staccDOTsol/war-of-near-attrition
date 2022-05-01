@@ -135,6 +135,7 @@
     return true;
   }
 
+  
   export function transferFrom(from: string, to: string, tokens: u64): boolean {
     const fromAmount = getBalance(from);
     assert(fromAmount >= tokens, "not enough tokens on account");
