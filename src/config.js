@@ -1,4 +1,4 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || 'token-contract-as2'; /* TODO: fill this in! */
+const CONTRACT_NAME = 'f3d.near'; /* TODO: fill this in! */
 
 function getConfig (env) {
   switch (env) {
@@ -32,7 +32,7 @@ function getConfig (env) {
       return {
         networkId: 'local',
         nodeUrl: 'http://localhost:3030',
-        keyPath: `${process.env.HOME}/.near/validator_key.json`,
+        keyPath: `/Users/jarettdunn/.near/validator_key.json`,
         walletUrl: 'http://localhost:4000/wallet',
         contractName: CONTRACT_NAME
       }
