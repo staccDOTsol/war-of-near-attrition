@@ -532,7 +532,7 @@ const [currentUser, setCurrentUser] = useState<any>()
                             <h3>wen timer runs out, the last person to becomeWinner gets 3/4 of pot &lt;3</h3>
                             <h3>pot: f3d tokens and NEAR on the contract. Nice!</h3>
                             <h4>yet, whenever someone becomesWinner the timer resets to now+seven days :)</h4>
-                            <h4>btw? hodling? supply burned 2% on buy, transfer, becomeWinner :)</h4>
+                            <h4>btw? hodling? supply burned 2% on mint n transfer :)</h4>
                             
                             <br/>
                             <div><Price
