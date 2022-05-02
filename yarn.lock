@@ -6176,10 +6176,10 @@ near-api-js@^0.43.1:
     text-encoding-utf-8 "^1.0.2"
     tweetnacl "^1.0.1"
 
-near-api-js@^0.44.0:
-  version "0.44.0"
-  resolved "https://registry.yarnpkg.com/near-api-js/-/near-api-js-0.44.0.tgz#352168a47916454ce9ce438cf747374282efdda7"
-  integrity sha512-aYJhIOf/c9zd9GSTtKHIbfu9cDdLZYPNoHl0k0i+/Kk1AFUmvtEaNcohC278yxiJfS16kOYCuqHl5u6GKh9G/g==
+near-api-js@^0.44.2:
+  version "0.44.2"
+  resolved "https://registry.yarnpkg.com/near-api-js/-/near-api-js-0.44.2.tgz#e451f68f2c56bd885c7b918db5818a3e6e9423d0"
+  integrity sha512-eMnc4V+geggapEUa3nU2p8HSHn/njtloI4P2mceHQWO8vDE1NGpnAw8FuTBrLmXSgIv9m6oocgFc9t3VNf5zwg==
   dependencies:
     bn.js "5.2.0"
     borsh "^0.6.0"
@@ -6248,7 +6248,7 @@ near-mock-vm@^3.2.2:
     "@assemblyscript/loader" "^0.18.9"
     yargs "^16.2.0"
 
-near-sdk-as@3.2.3:
+near-sdk-as@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/near-sdk-as/-/near-sdk-as-3.2.3.tgz#95f3dec1b38e542cd8f4347849147446586ee02f"
   integrity sha512-Msvmf8oRPathLjks9IzchQj8b8B4C8LS7O16WaaLj2dWT57TpDXLuizpABG7FwkqJ4oiZp5huoS9iWJjZrbBRg==
