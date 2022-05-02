@@ -58,11 +58,8 @@ const WalletContainer = styled.div`
 
 const WalletAmount = styled.div`
   color: black;
-  width: auto;
   padding: 5px 5px 5px 16px;
-  min-width: 48px;
-  min-height: auto;
-  border-radius: 22px;
+  border-radius: 42px;
   background-color: var(--main-text-color);
   box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
   box-sizing: border-box;
@@ -618,6 +615,39 @@ const [currentUser, setCurrentUser] = useState<any>()
                     {alertState.message}
                 </Alert>
             </Snackbar>
+            <MainContainer>
+
+            <MintContainer>
+
+                    <DesContainer>     
+                <NFT >{"Psst... rightclick save I'm tired of fucking with CSS"}</NFT>
+
+                    </DesContainer>
+                </MintContainer>
+              </MainContainer>
+<MainContainer>
+            <MintContainer>
+                    <DesContainer >
+                <NFT style={{width:"80%"}}>
+            <img src="/1.png" width={"77%"} ></img>
+            </NFT>
+
+                    </DesContainer>
+                </MintContainer>
+            </MainContainer>
+
+            <MainContainer>
+
+            <MintContainer>
+
+                    <DesContainer>     
+                <NFT style={{width:"80%"}}>
+            <img src="/2.png" width={"77%"} height={"90%"}></img>
+            </NFT>
+
+                    </DesContainer>
+                </MintContainer>
+            </MainContainer>
         </main>
         </ThemeProvider>
     );
